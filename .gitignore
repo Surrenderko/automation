@@ -1,0 +1,16 @@
+﻿# Node modules
+node_modules/
+package-lock.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test artifacts
+test-results/
+coverage/
+reports/

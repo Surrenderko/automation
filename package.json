@@ -1,0 +1,25 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "QA Automation Learning Journey",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "mocha 'week1-fundamentals/first-tests/**/*.test.js'",
+    "test:watch": "mocha 'week1-fundamentals/first-tests/**/*.test.js' --watch"
+  },
+  "keywords": [
+    "testing",
+    "automation",
+    "qa"
+  ],
+  "author": "Surrenderko",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "chai": "^6.2.2",
+    "mocha": "^11.7.5"
+  }
+}
